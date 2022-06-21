@@ -12,9 +12,9 @@ Inicio
     
     Para primContador de 0 até 11 Faça
         Inicio
-            mediaMensal = 0;
-            mediaMensal = (mediaMensal + leituras[segContador] + leituras[segContador + 1] + leituras[segContador + 2] + leituras[segContador + 3]) / 4;
-            segContador =  segContador + 4;
+            mediaMensal <- 0;
+            mediaMensal <- (mediaMensal + leituras[segContador] + leituras[segContador + 1] + leituras[segContador + 2] + leituras[segContador + 3]) / 4;
+            segContador <-  segContador + 4;
             
             Escreva(primContador + 1, mediaMensal);
         Fim
